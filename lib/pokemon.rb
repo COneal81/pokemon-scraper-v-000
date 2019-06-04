@@ -13,4 +13,8 @@ class Pokemon
   def self.find
   end
   
+  def self.find
+  
+  end
+  
 end
