@@ -10,6 +10,6 @@ class Pokemon
     INSERT INTO pokemon
     VALUES(?, ?, ?, ?)
     SQL
-    DB[:conn].execute(sql, self.name, self.type)
+    DB[:conn].execute(sql)
   end
 end
