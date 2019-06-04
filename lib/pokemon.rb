@@ -10,7 +10,8 @@ class Pokemon
     VALUES (?, ?)",name, type)
   end
   
-  def self.find
+  def self.find(num, db)
+    
     
   end
 
