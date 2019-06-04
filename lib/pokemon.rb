@@ -7,7 +7,7 @@ class Pokemon
   
   def self.save
     sql=<<-SQL
-    INSERT INTO pokemon(keywords)
+    INSERT INTO pokemon
     VALUES(?, ?, ?, ?)
     SQL
     DB[:conn].execute(sql, self.keywords)
